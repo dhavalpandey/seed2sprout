@@ -20,7 +20,10 @@ def success():
 
 def push_to_github():
     os.system("git add .")
-    os.system(f"git commit -m {git_commit_message}")
+
+    text = "git commit -m '{git_commit_message}'"
+    os.system("git commit -m {str(git_commit_message)}")
+    print(text)
     os.system("git push origin main")
 
 def deploy():
