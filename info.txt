@@ -1,0 +1,4 @@
+DOMAIN=https://seed2sprout.uk/
+DOMAIN_PROVIDER=godaddy
+DEVELOPMENT_DOMAIN=https://seed2sprout.netlify.app/
+PUBLIC_FILES=https://drive.google.com/drive/folders/1yijEcjq78sAt67bM0YYT505UvN16A1f-
