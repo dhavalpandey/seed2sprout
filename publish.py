@@ -21,9 +21,8 @@ def success():
 def push_to_github():
     os.system("git add .")
 
-    text = "git commit -m '{git_commit_message}'"
-    os.system("git commit -m {str(git_commit_message)}")
-    print(text)
+    text = f'git commit -m "{git_commit_message}"'
+    os.system(text)
     os.system("git push origin main")
 
 def deploy():
