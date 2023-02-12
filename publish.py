@@ -28,7 +28,7 @@ def push_to_github():
 def deploy():
     try:
         push_to_github()
-        # success()
+        success()
     except:
         sys.exit()
 
