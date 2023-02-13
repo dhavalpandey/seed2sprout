@@ -1,0 +1,25 @@
+.home {
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slogan {
+  font-size: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Baskerville", serif;
+  color: #284038;
+  font-weight: bolder;
+  margin-top: 200px;
+}
+
+.colour-background {
+  background-color: #284038;
+  height: 70%;
+  margin-top: -2%;
+  width: 100%;
+  position: absolute;
+  z-index: 100000000000000000000;
+}
