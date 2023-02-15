@@ -4,7 +4,7 @@ import Logo from "../../Images/logo.png";
 import MenuContent from "./MenuContent/MenuContent";
 
 export default function Navbar() {
-  let page = window.location.href.slice(22);
+  let page = window.location.pathname.slice(1);
   let pageText;
 
   if (page === "") {
