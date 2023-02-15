@@ -1,0 +1,43 @@
+.menu-content {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 33px;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(135, 148, 143);
+  position: relative;
+  text-decoration: none;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: rgb(135, 148, 143);
+  bottom: 27%;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.silvalogo {
+  height: 200px;
+}
