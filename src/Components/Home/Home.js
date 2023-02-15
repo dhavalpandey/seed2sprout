@@ -9,7 +9,14 @@ export default function Home() {
       <Helmet>
         <title>Seed2Sprout • Home</title>
       </Helmet>
-      <h1 className="slogan">Seed the Change, Sprout the Difference</h1>
+      <h1 className="slogan typing">
+        <span>Seed </span>
+        <span> the</span>
+        <span>Change,</span>
+        <span>Sprout</span>
+        <span>the</span>
+        <span>Difference</span>
+      </h1>
       <div className="images">
         <img
           width="50%"
