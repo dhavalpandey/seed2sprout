@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -26,7 +27,7 @@ function App() {
         </Switch>
         <Switch>
           <Route exact path="/contact">
-            <h1>Seeds</h1>
+            <Contact />
           </Route>
         </Switch>
         <Footer />
