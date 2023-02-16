@@ -24,8 +24,8 @@ export default function Home() {
         <div className="grid">
           <Card seed="Carrot Seeds" img={Carrots} name="carrot-seeds" />
           <Card seed="Tomato Seeds" img={Tomatoes} name="tomato-seeds" />
-          <Card seed="Lettuce Seeds" img={Cucumbers} name="lettuce-seeds" />
-          <Card seed="Cucumber Seeds" img={lettuce} name="cucumber-seeds" />
+          <Card seed="Lettuce Seeds" img={lettuce} name="lettuce-seeds" />
+          <Card seed="Cucumber Seeds" img={Cucumbers} name="cucumber-seeds" />
           <Card seed="Runner Bean Seeds" img={Beans} name="runner-bean-seeds" />
         </div>
       </FadeIn>
