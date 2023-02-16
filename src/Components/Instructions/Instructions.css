@@ -1,0 +1,26 @@
+.page-title {
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+  color: #284038;
+  font-weight: 700;
+  font-size: 3em;
+  overflow: hidden;
+}
+
+.grid {
+  position: absolute;
+  padding-top: 24vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-column-gap: 4%;
+  overflow: hidden;
+}
