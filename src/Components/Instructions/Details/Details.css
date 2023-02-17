@@ -1,0 +1,28 @@
+.details-page {
+  width: 100vw;
+  position: absolute;
+  padding-top: 27vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  grid-auto-flow: column;
+  grid-column-gap: 4%;
+  overflow: hidden;
+  padding-left: 3vw;
+}
+
+.info {
+  color: rgb(135, 148, 143);
+  font-size: 1.1em;
+  width: 70vw;
+}
+
+li {
+  padding-bottom: 2vh;
+}
+
+.section-title {
+  font-size: 1.7em;
+  color: #284038;
+}

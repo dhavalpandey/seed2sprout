@@ -13,12 +13,20 @@ export default function Home() {
   return (
     <div className="instructions">
       <Helmet>
-        <title>Seed2Sprout • Planting Instructions</title>
+        <title>
+          Seed2Sprout • Sow, Grow, and Know: The Ultimate Seed Planting Guide
+        </title>
       </Helmet>
       <h1 className="page-title">
-        <span>Choose</span>
-        <span>a</span>
+        <span>Sow,</span>
+        <span>Grow,</span>
+        <span>and</span>
+        <span>Know:</span>
+        <span>The</span>
+        <span>Ultimate</span>
         <span>Seed</span>
+        <span>Planting</span>
+        <span>Guide</span>
       </h1>
       <FadeIn>
         <div className="grid">
