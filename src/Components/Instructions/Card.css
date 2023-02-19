@@ -9,7 +9,7 @@
   background-color: rgba(135, 148, 143, 0.05);
 }
 
-img {
+.card img {
   border-radius: 15px;
   transition: 350ms ease-in-out;
 }
