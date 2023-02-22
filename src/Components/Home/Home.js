@@ -1,37 +1,62 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ForestBackground from "../../Images/Treebackground.png";
 import "./Home.css";
 import { Helmet } from "react-helmet";
+import Loading from "../Loading/Loading";
 
 export default function Home() {
-  return (
-    <div className="home">
-      <Helmet>
-        <title>Seed2Sprout • Home</title>
-      </Helmet>
-      <h1 className="slogan typing">
-        <span>Seed </span>
-        <span> the</span>
-        <span>Change,</span>
-        <span>Sprout</span>
-        <span>the</span>
-        <span>Difference</span>
-      </h1>
-      <div className="images">
+  const [spinner, setSpinner] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false), 800);
+  }, []);
+
+  if (spinner === true) {
+    return (
+      <div>
+        <Helmet>
+          <title>Seed2Sprout • Home</title>
+        </Helmet>
+        <Loading />
         <img
-          width="50%"
-          height="100%"
-          alt="Exhilatring and eyecatching forest setting"
-          src={ForestBackground}
-        />
-        <img
-          width="50%"
-          height="100%"
-          alt="Exhilatring and eyecatching forest setting"
+          style={{
+            visibility: "hidden",
+          }}
+          alt="preload img"
           src={ForestBackground}
         />
       </div>
-      <div className="colour-background"></div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="home">
+        <Helmet>
+          <title>Seed2Sprout • Home</title>
+        </Helmet>
+        <h1 className="slogan typing">
+          <span>Seed </span>
+          <span> the</span>
+          <span>Change,</span>
+          <span>Sprout</span>
+          <span>the</span>
+          <span>Difference</span>
+        </h1>
+        <div className="images">
+          <img
+            width="50%"
+            height="100%"
+            alt="Exhilatring and eyecatching forest setting"
+            src={ForestBackground}
+          />
+          <img
+            width="50%"
+            height="100%"
+            alt="Exhilatring and eyecatching forest setting"
+            src={ForestBackground}
+          />
+        </div>
+        <div className="colour-background"></div>
+      </div>
+    );
+  }
 }

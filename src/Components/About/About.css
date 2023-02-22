@@ -9,6 +9,7 @@
   flex-direction: column;
   font-family: "Libre Baskerville", serif;
   margin-bottom: 15vh;
+  text-align: center;
 }
 
 .title {
@@ -16,6 +17,12 @@
   color: #284038;
   font-weight: bolder;
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.section1 {
+  width: 80vw;
+  margin-left: -3%;
+  padding-bottom: 4vh;
 }
 
 span {

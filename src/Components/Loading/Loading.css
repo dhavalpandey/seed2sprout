@@ -1,0 +1,30 @@
+.preloader {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  background-color: #284038;
+  overflow: hidden;
+  transition: 0.3s;
+  z-index: 100000000000000000000000000000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.silva-loader {
+  animation: rotation 500ms linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

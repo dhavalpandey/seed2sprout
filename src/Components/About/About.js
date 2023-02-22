@@ -11,7 +11,7 @@ export default function Contact() {
       </Helmet>
       <div className="content about-page">
         <FadeIn>
-          <div className="section">
+          <div className="section1">
             <div className="who">
               <h1 className="title">
                 <span>What</span>
@@ -32,7 +32,7 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="section">
+          <div className="section1">
             <div className="mission ">
               <h1 className="title">
                 <span>Our</span>
@@ -41,7 +41,7 @@ export default function Contact() {
               <p>We want to Seed the Change, Sprout the Difference</p>
             </div>
           </div>
-          <div className="vision section">
+          <div className="vision section1">
             <h1 className="title">
               <span>Our</span>
               <span>Vision</span>
@@ -62,7 +62,7 @@ export default function Contact() {
               keeping our product value high.
             </p>
           </div>
-          <div className="values section">
+          <div className="values section1">
             <h1 className="title">
               <span>Our</span>
               <span>Values</span>
