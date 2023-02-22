@@ -15,7 +15,7 @@ export default function Home() {
 
   if (spinner === true) {
     return (
-      <div>
+      <div style={{ overflow: "hidden" }}>
         <Helmet>
           <title>Seed2Sprout • Home</title>
         </Helmet>
@@ -28,9 +28,7 @@ export default function Home() {
           src={ForestBackground}
         />
         <img
-          style={{
-            visibility: "hidden",
-          }}
+          style={{ height: "10px" }}
           className="logo"
           alt="logo"
           src={Logo}
