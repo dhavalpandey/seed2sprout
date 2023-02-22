@@ -3,6 +3,7 @@ import ForestBackground from "../../Images/Treebackground.png";
 import "./Home.css";
 import { Helmet } from "react-helmet";
 import Loading from "../Loading/Loading";
+import Navbar from "../Navbar/Navbar";
 
 export default function Home() {
   const [spinner, setSpinner] = useState(true);
@@ -30,6 +31,7 @@ export default function Home() {
   } else {
     return (
       <div className="home">
+        <Navbar />
         <Helmet>
           <title>Seed2Sprout • Home</title>
         </Helmet>

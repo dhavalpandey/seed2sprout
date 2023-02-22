@@ -19,7 +19,6 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -27,41 +26,49 @@ function App() {
         </Switch>
         <Switch>
           <Route exact path="/about">
+            <Navbar />
             <About />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds/carrot-seeds">
+            <Navbar />
             <Carrots />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds/tomato-seeds">
+            <Navbar />
             <Tomato />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds/lettuce-seeds">
+            <Navbar />
             <Lettuce />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds/cucumber-seeds">
+            <Navbar />
             <Cucumber />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds/runner-bean-seeds">
+            <Navbar />
             <Beans />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/seeds">
+            <Navbar />
             <Instructions />
           </Route>
         </Switch>
         <Switch>
           <Route exact path="/contact">
+            <Navbar />
             <Contact />
           </Route>
         </Switch>
