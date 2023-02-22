@@ -31,6 +31,7 @@ export default function Home() {
           style={{
             visibility: "hidden",
           }}
+          className="logo"
           alt="logo"
           src={Logo}
         />
