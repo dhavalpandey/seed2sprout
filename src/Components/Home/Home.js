@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ForestBackground from "../../Images/Treebackground.png";
+import Logo from "../../Images/logo.png";
 import "./Home.css";
 import { Helmet } from "react-helmet";
 import Loading from "../Loading/Loading";
@@ -25,6 +26,13 @@ export default function Home() {
           }}
           alt="preload img"
           src={ForestBackground}
+        />
+        <img
+          style={{
+            visibility: "hidden",
+          }}
+          alt="logo"
+          src={Logo}
         />
       </div>
     );
