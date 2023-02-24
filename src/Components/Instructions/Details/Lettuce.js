@@ -11,14 +11,15 @@ import Tips from "./Tips";
 export default function Lettuce() {
   return (
     <div>
-      <h1 className="page-title">
-        <span>From</span> <span>Seed</span> <span>2</span> <span>Salad:</span>{" "}
-        <span>All</span> <span>about</span> <span>Lettuce</span>
-      </h1>
+      <div className="page-title1">
+        <h1>
+          <span>Lettuce All Year Round</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="details-page">
           <Helmet>
-            <title>Seed2Sprout • From Seed 2 Salad: All about Lettuce</title>
+            <title>Seed2Sprout • Seed 2 Salad: Lettuce All Year Round</title>
           </Helmet>
           <GlobalInfo />
           <div className="details-container">
@@ -34,6 +35,9 @@ export default function Lettuce() {
             </div>
             <div className="subsection1">
               <Tips />
+              <div>
+                <img src={Lettuce1} alt="Lettuce1" className="hidden-img" />
+              </div>
             </div>
           </div>
           <div className="info">

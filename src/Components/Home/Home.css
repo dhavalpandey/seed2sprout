@@ -4,15 +4,20 @@
   height: 100vh;
 }
 
-.slogan {
-  font-size: 4em;
+.slogan-div {
+  height: 10vh;
+  font-size: 2em;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-family: "Libre Baskerville", serif;
   color: #284038;
   font-weight: bolder;
-  margin-top: 200px;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 
@@ -129,5 +134,25 @@ span:nth-child(18) {
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pic2 {
+    display: none;
+  }
+
+  .pic1 {
+    width: 100%;
+  }
+
+  .slogan-div {
+    margin-top: 28vh;
+    font-size: 1.5em;
+    margin-bottom: 13vh;
+  }
+
+  .colour-background {
+    height: 50%;
   }
 }

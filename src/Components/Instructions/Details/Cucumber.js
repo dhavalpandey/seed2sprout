@@ -11,16 +11,15 @@ import Tips from "./Tips";
 export default function Cucumber() {
   return (
     <div>
-      <h1 className="page-title">
-        <span>From</span> <span>Seed</span> <span>2</span> <span>Snack:</span>{" "}
-        <span>Plunge</span> <span>into</span> <span>Cucumbers</span>
-      </h1>
+      <div className="page-title1">
+        <h1>
+          <span>Cucumber Marketmore</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="details-page">
           <Helmet>
-            <title>
-              Seed2Sprout • From Seed 2 Snack: Plunge into Cucumbers
-            </title>
+            <title>Seed2Sprout • Seed 2 Snack: Cucumber Marketmore</title>
           </Helmet>
           <GlobalInfo />
           <div className="details-container">
@@ -36,6 +35,9 @@ export default function Cucumber() {
             </div>
             <div className="subsection1">
               <Tips />
+              <div>
+                <img src={Cucumber1} alt="Cucumber1" className="hidden-img" />
+              </div>
             </div>
           </div>
           <div className="info">

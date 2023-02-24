@@ -15,6 +15,16 @@ export default function Navbar() {
     pageText = "Seeds";
   } else if (page === "contact") {
     pageText = "Contact";
+  } else if (page === "seeds/cucumber-seeds") {
+    pageText = "Cucumber";
+  } else if (page === "seeds/carrot-seeds") {
+    pageText = "Carrot";
+  } else if (page === "seeds/tomato-seeds") {
+    pageText = "Tomato";
+  } else if (page === "seeds/lettuce-seeds") {
+    pageText = "Lettuce";
+  } else if (page === "seeds/runner-bean-seeds") {
+    pageText = "Beans";
   }
 
   return (

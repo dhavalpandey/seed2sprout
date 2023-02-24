@@ -82,3 +82,15 @@
 .text {
   padding: 3%;
 }
+
+@media screen and (max-height: 900px) {
+  .card {
+    width: 350px;
+  }
+
+  .img-container {
+    overflow: hidden;
+    border-radius: 15px;
+    width: 350px;
+  }
+}

@@ -11,17 +11,15 @@ import Tips from "./Tips";
 export default function Beans() {
   return (
     <div>
-      <h1 className="page-title">
-        <span>From</span> <span>Seed</span> <span>2</span> <span>Vine:</span>{" "}
-        <span>A</span> <span>guide</span> <span>to</span>
-        <span>growing</span> <span>Runner</span> <span>Beans</span>
-      </h1>
+      <div className="page-title1">
+        <h1>
+          <span>Runner Bean Achievement</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="details-page">
           <Helmet>
-            <title>
-              Seed2Sprout • From Seed 2 Vine: A guide to growing Runner Beans
-            </title>
+            <title>Seed2Sprout • Seed 2 Vine: Runner Bean Achievement</title>
           </Helmet>
           <GlobalInfo />
           <div className="details-container">
@@ -33,6 +31,9 @@ export default function Beans() {
             </div>
             <div className="subsection1">
               <Tips />
+              <div>
+                <img src={Beans1} alt="Beans1" className="hidden-img" />
+              </div>
             </div>
           </div>
           <div className="info">

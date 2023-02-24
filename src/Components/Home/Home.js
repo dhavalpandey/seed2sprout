@@ -42,26 +42,30 @@ export default function Home() {
         <Helmet>
           <title>Seed2Sprout • Home</title>
         </Helmet>
-        <h1 className="slogan typing">
-          <span>Seed </span>
-          <span> the</span>
-          <span>Change,</span>
-          <span>Sprout</span>
-          <span>the</span>
-          <span>Difference</span>
-        </h1>
+        <div className="slogan-div">
+          <h1 className="slogan typing">
+            <span>Seed </span>
+            <span> the</span>
+            <span>Change,</span>
+            <span>Sprout</span>
+            <span>the</span>
+            <span>Difference</span>
+          </h1>
+        </div>
         <div className="images">
           <img
             width="50%"
             height="100%"
             alt="Exhilatring and eyecatching forest setting"
             src={ForestBackground}
+            className="pic1"
           />
           <img
             width="50%"
             height="100%"
             alt="Exhilatring and eyecatching forest setting"
             src={ForestBackground}
+            className="pic2"
           />
         </div>
         <div className="colour-background"></div>

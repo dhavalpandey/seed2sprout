@@ -60,6 +60,25 @@ li {
   text-align: right;
 }
 
+.page-title1 {
+  height: 10vh;
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+  color: #284038;
+  font-weight: bolder;
+  color: #284038;
+  font-weight: 700;
+  margin-top: 18vh;
+  font-size: 1.5em;
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
 .details-container1 {
   margin-left: 3vw;
   border-radius: 15px;
@@ -73,4 +92,54 @@ li {
 
 .detail-img1:hover {
   transform: scale(1.35);
+}
+
+.hidden-img {
+  display: none;
+}
+
+@media screen and (max-width: 1800px) {
+  .details-page {
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 80vw;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .subsection1 {
+    width: 80vw;
+    color: rgb(135, 148, 143);
+    font-size: 1.1em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .detail-img {
+    width: 50vw;
+  }
+
+  .hidden-img {
+    display: flex;
+  }
+
+  .details-container1 {
+    display: none;
+  }
+
+  .hidden-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 50vw;
+    left: -10%;
+    transform: translate(30%);
+  }
 }

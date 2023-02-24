@@ -1,5 +1,6 @@
 .menu-content {
   width: 100vw;
+  height: 100vh;
   display: flex;
   position: absolute;
   left: 50%;
@@ -13,11 +14,12 @@
 .link {
   cursor: pointer;
   font-weight: bold;
-  font-size: 33px;
+  font-size: 2em;
   font-family: "Libre Baskerville", serif;
   color: rgb(135, 148, 143);
   position: relative;
   text-decoration: none;
+  text-align: center;
 }
 
 .link::before {
@@ -27,7 +29,7 @@
   height: 4px;
   border-radius: 4px;
   background-color: rgb(135, 148, 143);
-  bottom: 27%;
+  bottom: 20%;
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
@@ -40,5 +42,6 @@
 }
 
 .silvalogo {
-  height: 200px;
+  margin-top: 0;
+  height: 120px;
 }

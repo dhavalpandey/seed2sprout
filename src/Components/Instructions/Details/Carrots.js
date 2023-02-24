@@ -11,17 +11,15 @@ import Tips from "./Tips";
 export default function Carrots() {
   return (
     <div>
-      <h1 className="page-title">
-        <span>From</span> <span>Seed</span> <span>2</span> <span>Carrot:</span>{" "}
-        <span>Your</span> <span>Guide</span> <span>to</span>{" "}
-        <span>Planting</span> <span>Success</span>
-      </h1>
+      <div className="page-title1">
+        <h1>
+          <span>Carrot Autumn King</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="details-page">
           <Helmet>
-            <title>
-              Seed2Sprout • From Seed 2 Carrot: Your Guide to Planting Success
-            </title>
+            <title>Seed2Sprout • Seed 2 Carrot: Carrot Autumn King</title>
           </Helmet>
           <GlobalInfo />
           <div className="details-container">
@@ -33,6 +31,9 @@ export default function Carrots() {
             </div>
             <div className="subsection1">
               <Tips />
+              <div>
+                <img src={Carrots1} alt="carrots1" className="hidden-img" />
+              </div>
             </div>
           </div>
           <div className="info">

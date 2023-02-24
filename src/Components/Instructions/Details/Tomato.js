@@ -11,17 +11,16 @@ import Tips from "./Tips";
 export default function Tomato() {
   return (
     <div>
-      <h1 className="page-title">
-        <span>From</span> <span>Seed</span> <span>2</span> <span>Sauce:</span>{" "}
-        <span>How</span> <span>to</span> <span>Grow</span> <span>Tomatoes</span>{" "}
-        <span>at</span>
-        <span>Home</span>
-      </h1>
+      <div className="page-title1">
+        <h1>
+          <span>Tomato Garderner's Delight</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="details-page">
           <Helmet>
             <title>
-              Seed2Sprout • From Seed 2 Sauce: How to Grow Tomatoes at Home
+              Seed2Sprout • Seed 2 Sauce: Tomato Garderner's Delight
             </title>
           </Helmet>
           <GlobalInfo />
@@ -38,6 +37,9 @@ export default function Tomato() {
             </div>
             <div className="subsection1">
               <Tips />
+              <div>
+                <img src={Tomato1} alt="Tomato1" className="hidden-img" />
+              </div>
             </div>
           </div>
           <div className="info">

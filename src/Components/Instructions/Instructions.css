@@ -1,21 +1,25 @@
 .page-title {
-  left: 50%;
-  transform: translate(-50%);
+  height: 10vh;
+  font-size: 2em;
   position: absolute;
-  margin-top: 17vh;
+  text-align: center;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Libre Baskerville", serif;
   color: #284038;
+  font-weight: bolder;
+  color: #284038;
   font-weight: 700;
-  font-size: 3em;
-  overflow: hidden;
+  margin-top: 18vh;
+  font-size: 1.5em;
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .grid {
   position: absolute;
-  padding-top: 27vh;
+  padding-top: 33vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -23,4 +27,14 @@
   grid-auto-flow: column;
   grid-column-gap: 4%;
   overflow: hidden;
+}
+
+@media screen and (max-height: 900px) {
+  .page-title {
+    padding-top: 15vh;
+  }
+
+  .grid {
+    padding-top: 60vh;
+  }
 }

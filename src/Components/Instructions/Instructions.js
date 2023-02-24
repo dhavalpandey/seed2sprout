@@ -17,17 +17,19 @@ export default function Home() {
           Seed2Sprout • Sow, Grow, and Know: The Ultimate Seed Planting Guide
         </title>
       </Helmet>
-      <h1 className="page-title">
-        <span>Sow,</span>
-        <span>Grow,</span>
-        <span>and</span>
-        <span>Know:</span>
-        <span>The</span>
-        <span>Ultimate</span>
-        <span>Seed</span>
-        <span>Planting</span>
-        <span>Guide</span>
-      </h1>
+      <div className="page-title">
+        <h1>
+          <span>Sow,</span>
+          <span>Grow,</span>
+          <span>and</span>
+          <span>Know:</span>
+          <span>The</span>
+          <span>Ultimate</span>
+          <span>Seed</span>
+          <span>Planting</span>
+          <span>Guide</span>
+        </h1>
+      </div>
       <FadeIn>
         <div className="grid">
           <Card seed="Carrot Seeds" img={Carrots} name="carrot-seeds" />
