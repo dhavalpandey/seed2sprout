@@ -28,7 +28,7 @@ export default function Home() {
           src={ForestBackground}
         />
         <img
-          style={{ height: "10px" }}
+          style={{ visibility: "hidden" }}
           className="logo"
           alt="logo"
           src={Logo}

@@ -31,10 +31,11 @@
 
 @media screen and (max-height: 900px) {
   .page-title {
-    padding-top: 15vh;
+    padding-top: 10vh;
+    font-size: 1.3em;
   }
 
   .grid {
-    padding-top: 60vh;
+    padding-top: 55vh;
   }
 }
