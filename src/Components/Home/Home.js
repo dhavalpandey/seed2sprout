@@ -22,13 +22,13 @@ export default function Home() {
         <Loading />
         <img
           style={{
-            visibility: "hidden",
+            display: "none",
           }}
           alt="preload img"
           src={ForestBackground}
         />
         <img
-          style={{ visibility: "hidden" }}
+          style={{ display: "none" }}
           className="logo"
           alt="logo"
           src={Logo}
