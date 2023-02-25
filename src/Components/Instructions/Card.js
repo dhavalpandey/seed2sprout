@@ -12,7 +12,7 @@ export default function Card(props) {
           <div className="img-container">
             <img height="275" src={img} alt={seed} />
           </div>
-          <button className="button">Jump to {seed}</button>
+          <button className="button">Dig through {seed}</button>
         </div>
       </a>
     </div>

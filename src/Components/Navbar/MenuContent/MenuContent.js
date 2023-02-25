@@ -14,6 +14,9 @@ export default function MenuContent() {
       <a href="/seeds" className="link">
         <h1>Planting Instructions</h1>
       </a>
+      <a href="https://www.instagram.com/silvateam.ye/" className="link">
+        <h1>Our Journey</h1>
+      </a>
       <a href="/contact" className="link">
         <h1>Contact Us</h1>
       </a>
